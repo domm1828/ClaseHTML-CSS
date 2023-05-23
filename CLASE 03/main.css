@@ -1,0 +1,92 @@
+code{
+    font-size: 14px;
+    color: blue;
+    width: 25%;
+    background-color: #cecece;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid #000;
+}
+
+#classDos{
+    padding: 20px;
+    background-color: blue;
+}
+#classTres{
+    padding: 20px;
+    background-color: maroon;  
+}
+
+.classUno{
+    padding: 10px;
+    color:orange;
+}
+.fontSize10{
+    font-size: 40px;
+}
+
+p.intro{
+    font-size: 20px;
+    color: orange;
+}
+#classDos p{
+    font-size: 20px;
+    color: yellow; 
+}
+
+div,span,small{
+    background-color: red;
+}
+
+div > p {
+    color:blue;
+}
+
+[title=enlaceUno]{
+    color: red;
+}
+
+[title=enlaceDos]{
+    color: green;
+}
+
+[href*='goo']{
+    color: maroon !important;
+}
+
+[type=email]{
+    border: 1px solid red;
+}
+
+/* comentarios pseudo-elementos : , :: */
+
+.intro:hover{
+    font-size: 100px;
+}
+input:focus{
+    border:3px dotted black;
+}
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    background-color: coral;
+}
+
+p::first-letter{
+    background-color: yellow;
+    color: red;
+    font-size: 400%;
+}
+
+p::before{
+    content: "Ejemplo:";
+    font-weight: bold;
+    text-decoration: underline;
+}
+p::after{
+    content: " final del texto.";
+}
+p:first-child{
+    background-color: #cecece;
+}
