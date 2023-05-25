@@ -44,3 +44,7 @@ font-family: 'Roboto', sans-serif;*/
     font-family: var(--font-subtitle);
 }
 
+.menuH ul li a:hover{
+    color:var(--color-secondary);
+    border-bottom: 1px solid #000000;
+}
