@@ -50,7 +50,7 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 .menuV{
-    background-color: aliceblue;
+   
     padding-left: 25px;
     padding-top: 20px;
     font-family: var(--font-title);
@@ -66,9 +66,20 @@ font-family: 'Roboto', sans-serif;*/
     padding: 5px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px blue;
+    transition: all 0.3s ease;
 }
 .menuV ul li a:hover{
     background-color: rgb(142,175,237);
-    color:#000000;   
+    color:#000000; 
+    transform: scale(1.1,1.5);  
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+img{
+    width: 200px;
 }
 
