@@ -1,0 +1,22 @@
+/*
+*{
+  font-family: 'Roboto', sans-serif;  
+}
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+:root{
+    --font-title:'Roboto', sans-serif;
+    --font-subtitle:'Oswald', sans-serif;
+    --color-primary:#ec1c1c;
+    --color-secondary:#0c0b0b;
+    --size-font-s:14px;
+    --size-font-m:16px;
+    --size-font-l:22px;
+}
+
+.title{
+   color:var(--color-secondary); 
+   font-family: var(--font-title);
+   font-size: var(--size-font-m);
+}

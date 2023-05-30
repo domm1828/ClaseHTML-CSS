@@ -1,0 +1,85 @@
+/*
+*{
+  font-family: 'Roboto', sans-serif;  
+}
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+:root{
+    --font-title:'Oswald', sans-serif;
+    --font-subtitle:'Roboto', sans-serif;
+    --color-primary:#cecece;
+    --color-secondary:#f60e0e;
+    --size-font-s:14px;
+    --size-font-m:18px;
+    --size-font-l:22px;
+}
+
+.title{
+   color:var(--color-secondary); 
+   font-family: var(--font-title);
+   font-size: var(--size-font-m);
+}
+
+.menuH{
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 100%;
+}
+.menuH ul, .menuV ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.menuH ul li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #f60e0e;
+}
+.menuH ul li a{
+    text-decoration: none;
+    color:var(--color-primary);
+    font-family: var(--font-subtitle);
+}
+
+.menuH ul li a:hover{
+    color:var(--color-secondary);
+    border-bottom: 1px solid #000000;
+}
+
+.menuV{
+   
+    padding-left: 25px;
+    padding-top: 20px;
+    font-family: var(--font-title);
+    width: 300px;
+}
+
+.menuV ul li a{
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    color:var(--color-secondary);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px blue;
+    transition: all 0.3s ease;
+}
+.menuV ul li a:hover{
+    background-color: rgb(142,175,237);
+    color:#000000; 
+    transform: scale(1.1,1.5);  
+}
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+img{
+    width: 200px;
+}
+
