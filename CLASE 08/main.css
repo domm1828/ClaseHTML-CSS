@@ -1,0 +1,74 @@
+.grid{
+    display: grid; /*grid Establece cuadricula con item en bloque
+                    inline-grid Establece cuadricula con item en linea*/
+    /*FILAS - COLUMNAS*/
+     /*  grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 50px 20%;
+    /* unidad de fracion restante fr
+    
+     grid-template (filas y columnas)
+     
+     */
+     grid-template-columns: 50% 1fr 1fr;
+     padding: 10px;
+     background-color: beige;
+   /*  column-gap: 20px;
+     row-gap:20px;*/
+     /*gap: filas- columnas*/
+     gap:10px 30px;
+    /* justify-items: center;
+     justify-content: center;
+     align-content: center;*/
+
+      /* place-items: center start ; align-items justify-items*/
+    /*  place-content:space-between ; align-content justify-content*/
+      /* place-self: center; align-self justify-self items*/
+   
+   
+
+}
+.grid .item{
+    background-color: red;
+    padding: 20px ;
+    border: 1px solid black;
+}
+.grid-container{
+display: grid;
+background-color: beige;
+gap: 10px;
+padding: 10px;
+grid-template-areas: 'header header header header '
+                     'menu main main aside'
+                     'menu footer footer footer';
+}
+.grid-container > div{
+background-color: aqua;
+text-align: center;
+padding: 20px 0px;
+font-size: 30px;
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: menu;
+    height: 50vh;
+}
+.item3{
+    grid-area: main;
+}
+.item4{
+    grid-area: aside;
+}
+.item5{
+    grid-area: footer;
+}
+.grid .item-uno{
+   /* grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start:1;
+    grid-column-end:3;
+    */
+ /*  grid-column: 1 / 3;*/
+   grid-row: 1 / span 3;
+}
