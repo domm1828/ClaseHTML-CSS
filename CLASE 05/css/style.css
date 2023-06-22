@@ -147,3 +147,7 @@ footer p{
     background-color:white ;
     color: black;
 }
+
+@media (max-width:768px) {
+    aside,main,footer{width: 100%;}
+}
