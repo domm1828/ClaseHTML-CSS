@@ -1,0 +1,36 @@
+/*.container,.container-fluid{
+    background-color: blue;
+ 
+}*/
+.item{
+    border: 1px solid #000;
+}
+header{
+    background-color: orange !important;
+}
+
+main{
+    background-color: green !important;
+}
+
+aside{
+    background-color: beige !important;
+}
+.text-primary{
+    color: yellow;
+    font-size: 50px;
+    margin: 20px;
+    padding: 30px;
+}
+#dropdown-item{
+    color: yellow ;
+}
+.logo{
+    background-image: url(favicon-32x32.png);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.card-bulma{
+    
+}
