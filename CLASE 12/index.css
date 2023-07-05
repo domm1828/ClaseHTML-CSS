@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.redesSocial{
+    z-index: 999999;
+    border: 2px solid #cecece;
+    background-color: #cececedb;
+    border-radius: 0px 10px 10px 0px;
+    top: 25%;
+
+}
+.redesSocial ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.redesSocial ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+
+}
+.redesSocial ul li a i{
+    color: white;
+    font-size: 30px;
+
+}
+.carousel-item, .carousel-item img {
+    height: 90vh;
+}
+.carouselImg img{
+    height: 45vh;
+}
+.noPadding{
+    padding: 0px !important;
+}
+.noMargin{
+    margin: 0px !important;
+}
+.cardImg .card:hover > a.btn {
+    display: inline-block !important;
+    position: absolute;
+    top: 50%; 
+    margin: auto;
+    width: 100%;
+
+}
+.cardImg .card:hover > img{
+    filter: grayscale(1);
+}
+.carousel-indicators button{
+    border-radius: 100%;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: green!important;
+
+}
